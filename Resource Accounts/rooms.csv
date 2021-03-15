@@ -1,0 +1,4 @@
+﻿UPN,Alias,DisplayName,AllowExternalInvites,passwordNeverExpires,MTRP
+Room1@teamsdemoau.com,Room1,Demo Room 1,TRUE,TRUE,FALSE
+Room2@teamsdemoau.com,Room2,Demo Room 2,TRUE,TRUE,FALSE
+Room3@teamsdemoau.com,Room3,Demo Room 3,TRUE,TRUE,FALSE
