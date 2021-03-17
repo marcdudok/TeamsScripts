@@ -40,11 +40,11 @@ catch
 #Establish connections - User will be prompted for UPN and PW
 try {
     Write-Progress "Connecting to ExO"
-    #Connect-ExchangeOnline -ShowProgress $true -ShowBanner:$false
+    Connect-ExchangeOnline -ShowProgress $true -ShowBanner:$false
     Write-Progress "Connecting to MSOL"
-    #Connect-MsolService
+    Connect-MsolService
     Write-Progress "Connecting to AAD"
-    #Connect-AzureAD
+    Connect-AzureAD
 }
 catch{
     write-host "Connection to one or more services failed. Please validate your credentials." -ForegroundColor Red
